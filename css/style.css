@@ -37,13 +37,23 @@ border: 2px solid var(--purple);
 padding: 4px;
 
 }
-.perfil a, p {
+.perfil h1, p {
 text-decoration: none;
 text-align: center;
 font-family: Poppins;
 font-style: normal;
 font-weight: 300;
-font-size: 16px;
+font-size: 24px;
+line-height: 24px;
+color: var(--purple);
+}
+.perfil p {
+text-decoration: none;
+text-align: center;
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
 line-height: 24px;
 color: var(--purple);
 }
@@ -78,5 +88,5 @@ justify-content: center;
 }
 
 .icons img + img{
-    margin: 10px;
+margin: 10px;
 }
